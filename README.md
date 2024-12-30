@@ -10,16 +10,16 @@ Two PSU modules and two uP modules
 Additional power supply for +-12v and 5v for euro rack synth
 
 ## PSU
-### 1 Relay and 230V to 5v
-### 2 LED and 230V to 5v
+### 1 - Relay and 230V to 5v
+### 2 - LED and 230V to 5v
 ## uP
-### 1 AM2320 and DS18B20
-### 2 SSD1306 and AHT10
+### 1 - AM2320 and DS18B20
+### 2 - SSD1306 and AHT10
 
 ## PSU for Euro rack
-1 +-14v and 7v input
++/-14v and 7v input
 
-2x 16pin Eurorack power connectors as well as a +-12v,5v,GND connector
+2x 16pin Eurorack power connectors as well as a +/-12v,5v,GND connector
 
 Linear regulators 7805,7812,7912
 
