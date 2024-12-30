@@ -21,6 +21,10 @@ Additional power supply for +-12v and 5v for euro rack synth
 
 2x 16pin Eurorack power connectors as well as a +-12v,5v,GND connector
 
+Linear regulators 7805,7812,7912
+
+Fuse blown detection with LED indication
+
 # Status - Preliminary mounted
 ## Initial 
 | Stage  | Detail | Status |
