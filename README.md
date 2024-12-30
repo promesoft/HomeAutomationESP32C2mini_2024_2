@@ -4,8 +4,16 @@
 
 # Purpose
 Use for build into berker euro dåser
+
 Two PSU modules and two uP modules
+
 Additional power supply for +-12v and 5v for euro rack synth
+
+## PSU
+
+## uP
+
+## PSU for Euro rack
 
 # Status - Preliminary mounted
 ## Initial 
