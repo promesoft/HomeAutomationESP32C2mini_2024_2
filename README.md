@@ -74,3 +74,4 @@ Fuse blown detection with LED indication
 
 
 # Inspiration
+https://github.com/pforrmi/KiCad-SSD1306-128x64/tree/master
