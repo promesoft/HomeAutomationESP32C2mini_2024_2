@@ -11,13 +11,13 @@ Use for
 | ------------- | ------------- | ------------- |
 | create material  | sch/pcb | OK  |
 | | gerber | OK |
-| production  |   | ok |
-|  | produced | ok |
-|  | delivered | ok |
+| production  |   | in progress |
+|  | produced |  |
+|  | delivered |  |
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection | | OK |
+| Initial Inspection | |  |
 | Initial Technical Test |  |  |
 | Initial Technical Test |  |  |
 | Initial Technical Test |  |  |
