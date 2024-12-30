@@ -50,7 +50,7 @@ Use for
 ### Sub 2
 
 # Pictures
-![](555_VCO_Sch.png)
+![](HomeAutomationESP32C2mini_2024_2.jpg)
 
 
 # Inspiration
