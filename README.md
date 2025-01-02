@@ -32,8 +32,8 @@ Fuse blown detection with LED indication
 | create material  | sch/pcb | OK  |
 | | gerber | OK |
 | production  |   | in progress |
-|  | produced |  |
-|  | delivered |  |
+|  | produced | OK |
+|  | delivered | in progress |
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
