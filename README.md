@@ -28,8 +28,8 @@ Fuse blown detection with LED indication
 | ESP Designation  | Pin | Use |
 | ------------- | ------------- | ------------- |
 | U202 ESP32 C3 | GPIO05 | One Wire 18B20 |
-| U202 ESP32 C3 | GPIO06 | SDA SSD1306 |
-| U203 ESP32 C3 | GPIO07 | SCL SSD1306 |
+| U202 ESP32 C3 | GPIO06 | SDA AM2320 / HDR |
+| U203 ESP32 C3 | GPIO07 | SCL AM2320 / HDR |
 | U203 ESP32 C3 | GPIO09 | LED |
 | U203 ESP32 C3 | GPIO10 | Relay |
 | U203 ESP32 C3 | GPIO21 | Relay Alternative |
@@ -37,8 +37,8 @@ Fuse blown detection with LED indication
 | ESP Designation  | Pin | Use |
 | ------------- | ------------- | ------------- |
 | U402 ESP32 C3 | GPIO05 | One Wire 18B20 |
-| U402 ESP32 C3 | GPIO06 | SDA SSD1306 |
-| U403 ESP32 C3 | GPIO07 | SCL SSD1306 |
+| U402 ESP32 C3 | GPIO06 | SDA SSD1306 / AHT10 |
+| U403 ESP32 C3 | GPIO07 | SCL SSD1306 / AHT10 |
 | U403 ESP32 C3 | GPIO09 | LED |
 | U403 ESP32 C3 | GPIO10 | Relay |
 | U403 ESP32 C3 | GPIO21 | Relay Alternative |
