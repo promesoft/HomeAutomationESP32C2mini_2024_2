@@ -14,17 +14,6 @@ Additional power supply for +-12v and 5v for euro rack synth
 ### 2 - LED and 230V to 5v
 ## uP
 ### 1 - AM2320 and DS18B20
-### 2 - SSD1306 and AHT10
-
-## PSU for Euro rack
-+/-14v and 7v input
-
-2x 16pin Eurorack power connectors as well as a +/-12v,5v,GND connector
-
-Linear regulators 7805,7812,7912
-
-Fuse blown detection with LED indication
-
 | ESP Designation  | Pin | Use |
 | ------------- | ------------- | ------------- |
 | U202 ESP32 C3 | GPIO05 | One Wire 18B20 |
@@ -34,6 +23,7 @@ Fuse blown detection with LED indication
 | U203 ESP32 C3 | GPIO10 | Relay |
 | U203 ESP32 C3 | GPIO21 | Relay Alternative |
 
+### 2 - SSD1306 and AHT10
 | ESP Designation  | Pin | Use |
 | ------------- | ------------- | ------------- |
 | U402 ESP32 C3 | GPIO05 | One Wire 18B20 |
@@ -42,6 +32,15 @@ Fuse blown detection with LED indication
 | U403 ESP32 C3 | GPIO09 | LED |
 | U403 ESP32 C3 | GPIO10 | Relay |
 | U403 ESP32 C3 | GPIO21 | Relay Alternative |
+
+## PSU for Euro rack
++/-14v and 7v input
+
+2x 16pin Eurorack power connectors as well as a +/-12v,5v,GND connector
+
+Linear regulators 7805,7812,7912
+
+Fuse blown detection with LED indication
 
 # Status - Preliminary mounted
 ## Initial 
