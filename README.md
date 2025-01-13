@@ -25,6 +25,15 @@ Linear regulators 7805,7812,7912
 
 Fuse blown detection with LED indication
 
+| ESP Designation  | Pin | Use |
+| ------------- | ------------- | ------------- |
+| U402 ESP32 C3 | GPIO05 | One Wire 18B20 |
+| U402 ESP32 C3 | GPIO06 | SDA SSD1306 |
+| U403 ESP32 C3 | GPIO07 | SCL SSD1306 |
+| U403 ESP32 C3 | GPIO09 | LED |
+| U403 ESP32 C3 | GPIO10 | Relay |
+| U403 ESP32 C3 | GPIO21 | Relay Alternative |
+
 # Status - Preliminary mounted
 ## Initial 
 | Stage  | Detail | Status |
