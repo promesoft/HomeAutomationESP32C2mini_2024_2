@@ -33,7 +33,7 @@ Additional power supply for +-12v and 5v for euro rack synth
 | U403 ESP32 C3 | GPIO10 | Relay |
 | U403 ESP32 C3 | GPIO21 | Relay Alternative |
 
-## PSU for Euro rack
+## PSU for Euro rack - !!!!! EURORACK HEADER FLIPPED !!!!!!
 +/-14v and 7v input
 
 2x 16pin Eurorack power connectors as well as a +/-12v,5v,GND connector
