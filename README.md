@@ -59,10 +59,10 @@ Fuse blown detection with LED indication
 | Initial Inspection | ESP32C3 OLED| RELAY not working |
 |  | | OLED 0,96" not pin-compatible |
 | Initial Inspection | ESP32C3 |  |
+| Initial Technical Test | PWR RLY+ESP32C3 OLED AHT10 | OK - Blue LED req 820R - 10K pullup removed as impl in ESP32 pullup |
 | Initial Technical Test |  |  |
 | Initial Technical Test |  |  |
-| Initial Technical Test |  |  |
-| Initial Product Test |  |  |
+| Initial Product Test | PWR RLY+ESP32C3 OLED AHT10 | OK |
 | Initial Product Test |  |  |
 | Initial Product Test |  |  |
 | Power Draw |  |  |
