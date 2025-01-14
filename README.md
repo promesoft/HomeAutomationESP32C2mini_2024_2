@@ -54,7 +54,11 @@ Fuse blown detection with LED indication
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection | |  |
+| Initial Inspection | PWR RLY | OK |
+| Initial Inspection | PWR |  |
+| Initial Inspection | ESP32C3 OLED| RELAY not working |
+|  | | OLED 0,96" not pin-compatible |
+| Initial Inspection | ESP32C3 |  |
 | Initial Technical Test |  |  |
 | Initial Technical Test |  |  |
 | Initial Technical Test |  |  |
