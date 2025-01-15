@@ -84,7 +84,10 @@ Fuse blown detection with LED indication
 ## Errata
 ### Errata - Sub 1
 ### Errata - Sub 2
-### Errata - Sub 3
+### Errata - Eurorack PSU - !!!!! EURORACK HEADER FLIPPED !!!!!!
+| ERROR  | Detail | Workaround |
+| ------------- | ------------- |------------- |
+| J601 and J602 flipped | -12v on PIN 15+16 - should have been PIN 1+2 | FLIP the header compared to the silkscreen |
 
 ## Issues and Notes
 ### Sub 1
