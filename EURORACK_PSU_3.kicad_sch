@@ -640,6 +640,669 @@
 				)
 			)
 		)
+		(symbol "Eurorack_Power_16pin_Shrouded_1"
+			(pin_names
+				(offset 0.0254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J601"
+				(at -0.508 14.986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Eurorack_Power_16pin_Shrouded"
+				(at -2.1067 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
+				(at 10.16 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Header, Male Pins, 2*8, spacing 2.54mm, straight pin, shrouded and keyed"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Specifications" "Header, Male Pins, 2*8, spacing 2.54mm, straight pin, shrouded and keyed"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Cixi LanLing"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "LL1007-1 (2*8 HITEMP)"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Eurorack_Power_16pin_Shrouded"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin_Header_Straight_2X* Pin_Header_Angled_2X* Socket_Strip_Straight_2X* Socket_Strip_Angled_2X* IDC_Header_Straight_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Eurorack_Power_16pin_Shrouded_1_0_0"
+				(text "+12"
+					(at 0 -1.27 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "+5"
+					(at 0 -3.81 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "-12"
+					(at 0 8.89 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "CV"
+					(at 0 -6.35 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "GATE"
+					(at 0 -8.636 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "GND"
+					(at 0 1.27 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "GND"
+					(at 0 3.81 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "GND"
+					(at 0 6.35 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "STRIPE"
+					(at -6.35 -11.43 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(symbol "Eurorack_Power_16pin_Shrouded_1_0_1"
+				(rectangle
+					(start -2.54 -8.763)
+					(end -1.27 -9.017)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -6.223)
+					(end -1.27 -6.477)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -3.683)
+					(end -1.27 -3.937)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -1.143)
+					(end -1.27 -1.397)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 1.397)
+					(end -1.27 1.143)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 3.937)
+					(end -1.27 3.683)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 6.477)
+					(end -1.27 6.223)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 9.017)
+					(end -1.27 8.763)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 10.16)
+					(end 2.54 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -11.43) (xy 3.81 -11.43) (xy 1.27 -11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -8.763)
+					(end 2.54 -9.017)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -6.223)
+					(end 2.54 -6.477)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -3.683)
+					(end 2.54 -3.937)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.143)
+					(end 2.54 -1.397)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.397)
+					(end 2.54 1.143)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 3.937)
+					(end 2.54 3.683)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.477)
+					(end 2.54 6.223)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 9.017)
+					(end 2.54 8.763)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Eurorack_Power_16pin_Shrouded_1_1_1"
+				(pin passive line
+					(at -6.35 8.89 0)
+					(length 3.81)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -1.27 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -3.81 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -6.35 0)
+					(length 3.81)
+					(name "-12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -6.35 180)
+					(length 3.81)
+					(name "-12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -8.89 0)
+					(length 3.81)
+					(name "-12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -8.89 180)
+					(length 3.81)
+					(name "P16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 8.89 180)
+					(length 3.81)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 6.35 0)
+					(length 3.81)
+					(name "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 6.35 180)
+					(length 3.81)
+					(name "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 3.81 0)
+					(length 3.81)
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 3.81 180)
+					(length 3.81)
+					(name "P6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 1.27 0)
+					(length 3.81)
+					(name "12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 1.27 180)
+					(length 3.81)
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -1.27 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Jumper:SolderJumper_3_Bridged12"
 			(pin_names
 				(offset 0) hide)
@@ -1502,669 +2165,6 @@
 						(effects
 							(font
 								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PCM_4ms_Connector:Eurorack_Power_16pin_Shrouded"
-			(pin_names
-				(offset 0.0254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Eurorack_Power_16pin_Shrouded"
-				(at 0 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "4ms_Connector:Pins_2x08_2.54mm_TH_EuroPower_Shrouded"
-				(at 10.16 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Header, Male Pins, 2*8, spacing 2.54mm, straight pin, shrouded and keyed"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Specifications" "Header, Male Pins, 2*8, spacing 2.54mm, straight pin, shrouded and keyed"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Cixi LanLing"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "LL1007-1 (2*8 HITEMP)"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Eurorack_Power_16pin_Shrouded"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin_Header_Straight_2X* Pin_Header_Angled_2X* Socket_Strip_Straight_2X* Socket_Strip_Angled_2X* IDC_Header_Straight_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Eurorack_Power_16pin_Shrouded_0_0"
-				(text "+12"
-					(at 0 1.27 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(text "+5"
-					(at 0 3.81 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(text "-12"
-					(at 0 -8.89 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(text "CV"
-					(at 0 6.35 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(text "GATE"
-					(at 0 8.89 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(text "GND"
-					(at 0 -6.35 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(text "GND"
-					(at 0 -3.81 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(text "GND"
-					(at 0 -1.27 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(text "STRIPE"
-					(at -6.35 -11.43 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(symbol "Eurorack_Power_16pin_Shrouded_0_1"
-				(rectangle
-					(start -2.54 -8.763)
-					(end -1.27 -9.017)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 -6.223)
-					(end -1.27 -6.477)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 -3.683)
-					(end -1.27 -3.937)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 -1.143)
-					(end -1.27 -1.397)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 1.397)
-					(end -1.27 1.143)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 3.937)
-					(end -1.27 3.683)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 6.477)
-					(end -1.27 6.223)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 9.017)
-					(end -1.27 8.763)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 10.16)
-					(end 2.54 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -11.43) (xy 3.81 -11.43) (xy 1.27 -11.43)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 -8.763)
-					(end 2.54 -9.017)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 -6.223)
-					(end 2.54 -6.477)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 -3.683)
-					(end 2.54 -3.937)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 -1.143)
-					(end 2.54 -1.397)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 1.397)
-					(end 2.54 1.143)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 3.937)
-					(end 2.54 3.683)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 6.477)
-					(end 2.54 6.223)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 9.017)
-					(end 2.54 8.763)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Eurorack_Power_16pin_Shrouded_1_1"
-				(pin passive line
-					(at -6.35 8.89 0)
-					(length 3.81)
-					(name "P1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -1.27 180)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -3.81 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -3.81 180)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -6.35 0)
-					(length 3.81)
-					(name "-12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -6.35 180)
-					(length 3.81)
-					(name "-12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -8.89 0)
-					(length 3.81)
-					(name "-12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -8.89 180)
-					(length 3.81)
-					(name "P16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 8.89 180)
-					(length 3.81)
-					(name "P2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 6.35 0)
-					(length 3.81)
-					(name "P3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 6.35 180)
-					(length 3.81)
-					(name "P4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 3.81 0)
-					(length 3.81)
-					(name "+12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 3.81 180)
-					(length 3.81)
-					(name "P6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 1.27 0)
-					(length 3.81)
-					(name "12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 1.27 180)
-					(length 3.81)
-					(name "+12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -1.27 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3336,36 +3336,36 @@
 		(uuid "ff3820bf-85cc-491f-893d-16dfddaf8ef6")
 	)
 	(no_connect
-		(at 157.48 45.72)
-		(uuid "27df8cd7-fd98-4168-ad33-92533a869a11")
+		(at 157.48 91.44)
+		(uuid "09ec9402-545e-4fa8-86c6-aea9b5a0ed0b")
 	)
 	(no_connect
-		(at 170.18 45.72)
-		(uuid "4645964b-91c3-4f4a-9f62-532b76559fd2")
+		(at 157.48 60.96)
+		(uuid "19e7898b-06f2-42db-ab68-d8b0a657ca67")
 	)
 	(no_connect
-		(at 170.18 72.39)
-		(uuid "66a0920f-83a7-470a-937f-1c644792602a")
+		(at 170.18 58.42)
+		(uuid "1deb7d78-a976-40ad-aec9-72c7a2e3e520")
 	)
 	(no_connect
-		(at 157.48 74.93)
-		(uuid "7180bcd6-4545-4782-960f-ba4698018a25")
+		(at 157.48 88.9)
+		(uuid "51f9cd7b-1461-428a-a530-2aa07722761f")
 	)
 	(no_connect
-		(at 157.48 43.18)
-		(uuid "930efa37-d372-44c3-bece-602e5e294457")
+		(at 170.18 91.44)
+		(uuid "947ff9df-3c8d-4955-80d9-19f419f96009")
 	)
 	(no_connect
-		(at 157.48 72.39)
-		(uuid "a61e1655-e275-4592-b3b3-f82c2b02ef99")
+		(at 170.18 88.9)
+		(uuid "da1106b1-50f0-4fb5-9ee1-c05b67af32f9")
 	)
 	(no_connect
-		(at 170.18 43.18)
-		(uuid "c9edd70c-dff6-4d00-ab8a-e8342d8f1e17")
+		(at 157.48 58.42)
+		(uuid "ecb161f7-5344-44ca-b5a8-79ccb172359e")
 	)
 	(no_connect
-		(at 170.18 74.93)
-		(uuid "ced1a1a0-ba05-4bd0-bbea-79c2967e9da6")
+		(at 170.18 60.96)
+		(uuid "fdde25ed-45e3-460e-97b4-19f5e62b6555")
 	)
 	(wire
 		(pts
@@ -3799,6 +3799,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 43.18) (xy 170.18 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5626e5b4-dd28-4420-bafc-a763c593f3ab")
+	)
+	(wire
+		(pts
 			(xy 53.34 148.59) (xy 63.5 148.59)
 		)
 		(stroke
@@ -3806,6 +3816,16 @@
 			(type default)
 		)
 		(uuid "564e927b-c862-4b76-b845-7d4a054544fc")
+	)
+	(wire
+		(pts
+			(xy 171.45 76.2) (xy 170.18 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ded2c6f-e7d7-4e31-8d65-1ca69a237d2b")
 	)
 	(wire
 		(pts
@@ -3846,6 +3866,16 @@
 			(type default)
 		)
 		(uuid "63657a85-f982-41b0-9c63-6f654c00ce59")
+	)
+	(wire
+		(pts
+			(xy 171.45 73.66) (xy 170.18 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640654c8-72da-45fc-b9aa-ffa5ab346bec")
 	)
 	(wire
 		(pts
@@ -4309,6 +4339,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 45.72) (xy 170.18 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfae5e29-135d-45f7-ba3b-86b8aed0328e")
+	)
+	(wire
+		(pts
 			(xy 63.5 43.18) (xy 63.5 49.53)
 		)
 		(stroke
@@ -4526,19 +4566,7 @@
 	)
 	(hierarchical_label "+12v_out"
 		(shape input)
-		(at 170.18 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "10214b02-82f8-4499-9e4c-33ea8e4e5f28")
-	)
-	(hierarchical_label "+12v_out"
-		(shape input)
-		(at 170.18 50.8 0)
+		(at 170.18 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4548,21 +4576,21 @@
 		)
 		(uuid "123173c1-4603-45b6-8248-c3bc21337b9e")
 	)
-	(hierarchical_label "+5v_out"
+	(hierarchical_label "-12v_out"
 		(shape input)
-		(at 170.18 77.47 0)
+		(at 157.48 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "1fcc4910-33c4-4536-b1d7-54c5f4708a8f")
+		(uuid "1259ae10-e69e-49da-b6ea-062b97a408f1")
 	)
 	(hierarchical_label "VoutGND"
 		(shape input)
-		(at 170.18 58.42 0)
+		(at 171.45 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4574,7 +4602,7 @@
 	)
 	(hierarchical_label "VoutGND"
 		(shape input)
-		(at 157.48 53.34 180)
+		(at 157.48 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4584,9 +4612,21 @@
 		)
 		(uuid "2a9a6397-cdff-452e-8fcd-eddc464df322")
 	)
+	(hierarchical_label "+5v_out"
+		(shape input)
+		(at 170.18 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cecdcd6-0947-4af2-adc1-444227871e0d")
+	)
 	(hierarchical_label "VoutGND"
 		(shape input)
-		(at 157.48 58.42 180)
+		(at 157.48 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4608,9 +4648,9 @@
 		)
 		(uuid "335ad0e9-d841-4e34-af45-51b4a49aff0e")
 	)
-	(hierarchical_label "-12v_out"
+	(hierarchical_label "VoutGND"
 		(shape input)
-		(at 170.18 90.17 0)
+		(at 170.18 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4618,19 +4658,7 @@
 			)
 			(justify left)
 		)
-		(uuid "342ac889-c9df-4cc3-87bf-87984d9153b0")
-	)
-	(hierarchical_label "VoutGND"
-		(shape input)
-		(at 157.48 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "37f8a57e-754a-4728-8c37-924452431a94")
+		(uuid "360cac75-c5b3-461f-8a6f-572021ce5935")
 	)
 	(hierarchical_label "+12v_out"
 		(shape input)
@@ -4646,7 +4674,31 @@
 	)
 	(hierarchical_label "+5v_out"
 		(shape input)
-		(at 170.18 48.26 0)
+		(at 157.48 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d3d0db4-0e18-43db-82a6-71d745573a25")
+	)
+	(hierarchical_label "VoutGND"
+		(shape input)
+		(at 157.48 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5605882d-8a02-40d9-bcda-c73e8c4865ea")
+	)
+	(hierarchical_label "+5v_out"
+		(shape input)
+		(at 170.18 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4658,7 +4710,19 @@
 	)
 	(hierarchical_label "VoutGND"
 		(shape input)
-		(at 157.48 55.88 180)
+		(at 157.48 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5823b661-3e2b-44e8-a956-555a709e57a0")
+	)
+	(hierarchical_label "VoutGND"
+		(shape input)
+		(at 157.48 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4670,7 +4734,7 @@
 	)
 	(hierarchical_label "-12v_out"
 		(shape input)
-		(at 157.48 60.96 180)
+		(at 157.48 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4694,18 +4758,6 @@
 	)
 	(hierarchical_label "VoutGND"
 		(shape input)
-		(at 170.18 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7c145e6b-0578-413d-ac0b-50137041655b")
-	)
-	(hierarchical_label "VoutGND"
-		(shape input)
 		(at 99.06 62.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4715,6 +4767,18 @@
 			(justify left)
 		)
 		(uuid "85114d05-e767-4df5-9a4f-104a5f16de6d")
+	)
+	(hierarchical_label "VoutGND"
+		(shape input)
+		(at 157.48 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "854ac609-a328-46a0-ac16-c968132a00f7")
 	)
 	(hierarchical_label "+12v_out"
 		(shape input)
@@ -4727,6 +4791,18 @@
 			(justify left)
 		)
 		(uuid "87d855bc-12b2-40f3-b0e1-9f450c7c0c98")
+	)
+	(hierarchical_label "+12v_out"
+		(shape input)
+		(at 157.48 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a9e2dca-b596-4bd3-a985-da148bc16694")
 	)
 	(hierarchical_label "VinGND"
 		(shape input)
@@ -4752,18 +4828,6 @@
 		)
 		(uuid "967d4ef7-7139-4667-89d7-555063ff7c0a")
 	)
-	(hierarchical_label "VoutGND"
-		(shape input)
-		(at 157.48 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9a23735b-17d7-4f0b-b84f-55c577a66821")
-	)
 	(hierarchical_label "-12v_out"
 		(shape input)
 		(at 200.66 82.55 90)
@@ -4788,21 +4852,9 @@
 		)
 		(uuid "afdc9631-5185-46f5-add0-e2a01ad686cc")
 	)
-	(hierarchical_label "VoutGND"
+	(hierarchical_label "-12v_out"
 		(shape input)
-		(at 157.48 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b8a59dd3-034d-4da8-9aeb-a7f0e1b0874e")
-	)
-	(hierarchical_label "VoutGND"
-		(shape input)
-		(at 170.18 82.55 0)
+		(at 171.45 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4810,11 +4862,23 @@
 			)
 			(justify left)
 		)
-		(uuid "bf506463-2cd4-4dd4-ad60-d4a100e88d7f")
+		(uuid "bd5d311a-f6e4-4808-ade5-8ff45aadb7b8")
+	)
+	(hierarchical_label "VoutGND"
+		(shape input)
+		(at 170.18 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd77e67b-999e-4e3e-9196-89819f4ef4ee")
 	)
 	(hierarchical_label "+5v_out"
 		(shape input)
-		(at 157.48 48.26 180)
+		(at 157.48 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4836,33 +4900,9 @@
 		)
 		(uuid "d903decf-fc08-44cc-a9b3-f217e23aac71")
 	)
-	(hierarchical_label "-12v_out"
-		(shape input)
-		(at 157.48 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d9e5bff2-b8b5-4a95-b585-5a1778c7f480")
-	)
 	(hierarchical_label "VoutGND"
 		(shape input)
-		(at 170.18 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "de9577d6-0e16-4827-9b1f-e8fa8705b0d4")
-	)
-	(hierarchical_label "VoutGND"
-		(shape input)
-		(at 170.18 55.88 0)
+		(at 170.18 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4874,7 +4914,7 @@
 	)
 	(hierarchical_label "-12v_out"
 		(shape input)
-		(at 170.18 60.96 0)
+		(at 171.45 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4884,17 +4924,17 @@
 		)
 		(uuid "e394cc9b-b571-484b-8615-1cec38857f70")
 	)
-	(hierarchical_label "+12v_out"
+	(hierarchical_label "VoutGND"
 		(shape input)
-		(at 157.48 80.01 180)
+		(at 171.45 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "f0fae624-6c10-459a-bdd0-a6d7553b3b85")
+		(uuid "e6912aa4-3e1e-4703-b3eb-44d03dbc5872")
 	)
 	(hierarchical_label "Vin-13V"
 		(shape input)
@@ -4910,7 +4950,7 @@
 	)
 	(hierarchical_label "VoutGND"
 		(shape input)
-		(at 170.18 53.34 0)
+		(at 170.18 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4920,21 +4960,21 @@
 		)
 		(uuid "f68446ff-b42b-430e-ae4d-bec3190160b2")
 	)
-	(hierarchical_label "+5v_out"
+	(hierarchical_label "+12v_out"
 		(shape input)
-		(at 157.48 77.47 180)
+		(at 170.18 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "fc2c5f53-584c-47f3-bca8-d45e644c39b3")
+		(uuid "ff56e0cf-fd8a-4488-8efd-9c0633cbc332")
 	)
 	(hierarchical_label "+12v_out"
 		(shape input)
-		(at 157.48 50.8 180)
+		(at 157.48 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5269,6 +5309,147 @@
 			(project "HomeAutomationESP32C2mini_2024_2"
 				(path "/f800396a-b31c-4742-a700-118bdb5a3f51/f19928c0-3c26-4342-a2e7-9cc619ca0aa9"
 					(reference "F602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Eurorack_Power_16pin_Shrouded_1")
+		(lib_id "PCM_4ms_Connector:Eurorack_Power_16pin_Shrouded")
+		(at 163.83 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "185e08cb-1f5c-4e97-a170-a3140a871761")
+		(property "Reference" "J602"
+			(at 163.322 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Eurorack_Power_16pin_Shrouded"
+			(at 161.7233 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
+			(at 173.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header, Male Pins, 2*8, spacing 2.54mm, straight pin, shrouded and keyed"
+			(at 163.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Header, Male Pins, 2*8, spacing 2.54mm, straight pin, shrouded and keyed"
+			(at 163.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Cixi LanLing"
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LL1007-1 (2*8 HITEMP)"
+			(at 163.83 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c464ad1d-e3e5-4f0b-b758-4cb317614f17")
+		)
+		(pin "15"
+			(uuid "5a66afe7-7d05-4e34-8aa1-e237ba2a6e7b")
+		)
+		(pin "13"
+			(uuid "663c4f28-80e6-4791-9c06-6512a720a1ac")
+		)
+		(pin "8"
+			(uuid "b88c8440-cecc-4088-a358-368ec67e0e2f")
+		)
+		(pin "10"
+			(uuid "c7ec2bc4-8751-4ef8-8ecb-df15485b23a4")
+		)
+		(pin "5"
+			(uuid "22bab3eb-e332-4710-bf6e-40b8dd750886")
+		)
+		(pin "7"
+			(uuid "689b8191-6f22-4c4a-a2cf-d0f57296385a")
+		)
+		(pin "12"
+			(uuid "58b56d45-9e33-47ae-be1b-2856072ee501")
+		)
+		(pin "1"
+			(uuid "436223c7-bba9-44ae-a6d9-c1a09e81f85f")
+		)
+		(pin "11"
+			(uuid "936a3646-467d-4f21-83b6-36ae4aa80da2")
+		)
+		(pin "2"
+			(uuid "e9bac0be-ed01-43fa-8582-f964a4a4760e")
+		)
+		(pin "14"
+			(uuid "eea473af-db18-4d52-aa65-db7adf21cac9")
+		)
+		(pin "16"
+			(uuid "8dcb93da-82d7-4395-abe2-8f1dac9695b5")
+		)
+		(pin "3"
+			(uuid "4fa4f26f-6cb3-4746-8684-e906375b4f3f")
+		)
+		(pin "6"
+			(uuid "49ba2ec9-9a33-4bf8-98a2-56ccbcd4ca68")
+		)
+		(pin "9"
+			(uuid "815503ea-175a-4e8a-9501-f324b08111b6")
+		)
+		(instances
+			(project "HomeAutomationESP32C2mini_2024_2"
+				(path "/f800396a-b31c-4742-a700-118bdb5a3f51/f19928c0-3c26-4342-a2e7-9cc619ca0aa9"
+					(reference "J602")
 					(unit 1)
 				)
 			)
@@ -7004,146 +7185,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_4ms_Connector:Eurorack_Power_16pin_Shrouded")
-		(at 163.83 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84d72fc5-4907-4847-8a6a-832494a79768")
-		(property "Reference" "J602"
-			(at 161.7233 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Eurorack_Power_16pin_Shrouded"
-			(at 161.7233 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
-			(at 173.99 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Header, Male Pins, 2*8, spacing 2.54mm, straight pin, shrouded and keyed"
-			(at 163.83 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "Header, Male Pins, 2*8, spacing 2.54mm, straight pin, shrouded and keyed"
-			(at 163.83 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Cixi LanLing"
-			(at 163.83 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "LL1007-1 (2*8 HITEMP)"
-			(at 163.83 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "9a1775b6-f008-4bdb-98cb-b6684ccffec0")
-		)
-		(pin "15"
-			(uuid "51f84738-9590-482e-9e17-4ab1b1fdb700")
-		)
-		(pin "13"
-			(uuid "812d40bd-8149-4d96-bc79-d46573e44dc6")
-		)
-		(pin "8"
-			(uuid "fa43fb55-c3ae-46ae-896e-0c6e58bc0079")
-		)
-		(pin "10"
-			(uuid "3449946f-5db2-47b6-8963-3a097f95aa33")
-		)
-		(pin "5"
-			(uuid "baae3cfe-a5c8-422f-b0d8-87d70a067b49")
-		)
-		(pin "7"
-			(uuid "ff7c4658-5004-4a3c-a855-0e08ece021be")
-		)
-		(pin "12"
-			(uuid "0b42091d-6d2d-404c-8ab0-867cce6cdb0f")
-		)
-		(pin "1"
-			(uuid "4ef4f937-bc08-423e-9222-d408e36bc199")
-		)
-		(pin "11"
-			(uuid "499e497a-7d2c-4b50-9e1a-64ff48afc28c")
-		)
-		(pin "2"
-			(uuid "38e92535-c90a-49df-9f4d-58e79b070296")
-		)
-		(pin "14"
-			(uuid "548629df-6ccf-47e6-902d-012a1d6d4b9c")
-		)
-		(pin "16"
-			(uuid "925cc7e4-d7ed-4965-af35-94fed42981f1")
-		)
-		(pin "3"
-			(uuid "8cce16db-4364-4faa-8a95-fda18446bba4")
-		)
-		(pin "6"
-			(uuid "5f4e79f3-46fc-45ed-af09-eab59abcf0d0")
-		)
-		(pin "9"
-			(uuid "45168f65-044e-4325-b1c5-158e3723a98e")
-		)
-		(instances
-			(project "HomeAutomationESP32C2mini_2024_2"
-				(path "/f800396a-b31c-4742-a700-118bdb5a3f51/f19928c0-3c26-4342-a2e7-9cc619ca0aa9"
-					(reference "J602")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 63.5 54.61 0)
 		(unit 1)
@@ -8602,6 +8643,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Eurorack_Power_16pin_Shrouded_1")
 		(lib_id "PCM_4ms_Connector:Eurorack_Power_16pin_Shrouded")
 		(at 163.83 52.07 0)
 		(unit 1)
@@ -8612,7 +8654,7 @@
 		(fields_autoplaced yes)
 		(uuid "da862617-28f5-438a-8832-806198d48bb3")
 		(property "Reference" "J601"
-			(at 161.7233 36.83 0)
+			(at 163.322 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
