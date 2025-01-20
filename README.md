@@ -96,7 +96,7 @@ Fuse blown detection with LED indication
 # Pictures
 ![](HomeAutomationESP32C2mini_2024_2.jpg)
 ![](PowerSupply_Assembley.jpg)
-![]()
+![](PowerSupply_Assembley_Bottom.jpg)
 ![]()
 
 # Inspiration
